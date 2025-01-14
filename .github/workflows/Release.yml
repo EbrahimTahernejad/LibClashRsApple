@@ -30,6 +30,10 @@ jobs:
           toolchain: stable
           target: x86_64-apple-darwin
 
+      - name: Install Dependencies
+        run: |
+          brew install protobuf
+
       - name: Build XCFramework
         run: |
           cd clash-rs
