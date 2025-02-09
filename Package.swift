@@ -11,8 +11,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "clashrs",
-      url: "https://github.com/EbrahimTahernejad/LibClashRsApple/releases/download/0.0.1/clashrs.xcframework.zip",
-      checksum: "b08ecda6426981692caac8742e68b7b369aee6ff6ba5cd440e70acc128bc5f0f"
+      url: "https://github.com/EbrahimTahernejad/LibClashRsApple/releases/download/0.0.2/clashrs.xcframework.zip",
+      checksum: "2b4fa7e411e876ef0634dc29a909f5c057b5a0355297fbf36cbe7eb4b544a7e9"
     )
   ]
 )
