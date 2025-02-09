@@ -20,7 +20,7 @@ jobs:
 
       - uses: actions/checkout@v3
         with:
-          repository: 'EbrahimTahernejad/clash-rs'
+          repository: 'Watfaq/clash-rs'
           path: 'clash-rs'
           ref: ${{ github.event.inputs.tag }}
 
